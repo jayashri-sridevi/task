@@ -5,9 +5,16 @@ document.querySelector('#push').onclick = function(){
     else{
         document.querySelector('#tasks').innerHTML += `
             <div class="task">
-                <span id="taskname">
+                <span id="taskname1">
                     ${document.querySelector('#newtask1 input').value}
                 </span>
+                <span id="taskname2">
+				                    ${document.querySelector('#newtask2 input').value}
+				                </span>
+                <span id="taskname3">
+				                    ${document.querySelector('#newtask3 input').value}
+				                </span>
+
                 <button class="delete">
                     <i class="far fa-trash-alt"></i>
                 </button>
