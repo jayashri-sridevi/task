@@ -242,3 +242,12 @@ body{
 .completed{
     text-decoration: line-through;
 }
+
+.task2 hide {
+  display: none;
+}
+
+.task1:hover + .hide {
+  display: block;
+  color: red;
+}
