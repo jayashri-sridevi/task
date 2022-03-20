@@ -6,19 +6,16 @@ document.querySelector('#push').onclick = function(){
         document.querySelector('#tasks').innerHTML += `
 
             <div class="task1">
-                <span id="taskname1">
+
                     ${document.querySelector('#newtask1 input').value}
-                </span>
 
              <div class="task2">
-			     <span id="taskname2">
-				 	${document.querySelector('#newtask2 input').value}
-				 </span>
+			     	${document.querySelector('#newtask2 input').value}
+
             </div>
             <div class="task3">
-				<span id="taskname3">
 					${document.querySelector('input[type="date"]').value}
-				</span>
+
 			</div>
 
 				<button class="delete">
