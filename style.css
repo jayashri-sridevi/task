@@ -247,7 +247,7 @@ body{
   display: none;
 }
 
-.task1:hover + .hide {
+.task1:hover + .task2 hide + .task3 hide {
   display: block;
   color: red;
 }
