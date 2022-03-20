@@ -4,6 +4,7 @@ document.querySelector('#push').onclick = function(){
     }
     else{
         document.querySelector('#tasks').innerHTML += `
+
             <div class="task1">
                 <span id="taskname1">
                     ${document.querySelector('#newtask1 input').value}
@@ -17,7 +18,9 @@ document.querySelector('#push').onclick = function(){
             </div>
             <div class="task3">
 				<span id="taskname3">
-					${document.querySelector('input[type="date"]').value}
+				 	${document.querySelector('#newtask2 input').value}
+
+		${document.querySelector('input[type="date"]').value}
 				</span>
 
 				<button class="delete">
@@ -29,8 +32,7 @@ document.querySelector('#push').onclick = function(){
         var current_tasks = document.querySelectorAll(".delete");
         for(var i=0; i<current_tasks.length; i++){
             current_tasks[i].onclick = function(){
-                alert(this.parentNode);
-                this.parentNode.remove();
+                 this.parentNode.remove();
 
             }
         }
