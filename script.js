@@ -4,7 +4,7 @@ document.querySelector('#push').onclick= function
 		alert ("Please Enter a Task")
 	}
 	else {
-		document.querySelector('#tasks').innerHTML += '
+		document.querySelector('#tasks').innerHTML += `
 			<div class="task">
 				<span id="taskname">
 					${document.querySelector ('#newtask input').value}
@@ -13,7 +13,7 @@ document.querySelector('#push').onclick= function
 					<i class="far fa-trash-alr"> </i>
 				</button>
 			</div>
-		';
+		`;
 		var current_tasks = document.querySelectorAll(".delete");
 		for(var i=0; i<current_tasks.length; i++){
 				current_tasks[i].onclick = function(){
