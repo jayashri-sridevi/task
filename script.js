@@ -12,7 +12,7 @@ document.querySelector('#push').onclick= function
 		}
 
 		var tasks= document.querySelectorAll(".task");
-		for( var i-0; i<task.length; i++){
+		for( var i=0; i<task.length; i++){
 			task[i].onclick = function(){
 				this.classList.toggle('completed');
 			}
