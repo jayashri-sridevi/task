@@ -251,3 +251,7 @@ body{
   display: block;
   color: red;
 }
+
+.task3 hide {
+  display: none;
+}
