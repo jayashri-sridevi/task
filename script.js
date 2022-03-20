@@ -10,18 +10,17 @@ document.querySelector('#push').onclick = function(){
                     ${document.querySelector('#newtask1 input').value}
                 </span>
 
-            </div>
-            <div class="task2">
+             <div class="task2">
 			     <span id="taskname2">
 				 	${document.querySelector('#newtask2 input').value}
 				 </span>
             </div>
             <div class="task3">
 				<span id="taskname3">
-				 	${document.querySelector('#newtask2 input').value}
 
-		${document.querySelector('input[type="date"]').value}
+				${document.querySelector('input[type="date"]').value}
 				</span>
+			</div>
 
 				<button class="delete">
 					<i class="far fa-trash-alt"></i>
@@ -32,7 +31,8 @@ document.querySelector('#push').onclick = function(){
         var current_tasks = document.querySelectorAll(".delete");
         for(var i=0; i<current_tasks.length; i++){
             current_tasks[i].onclick = function(){
-                 this.parentNode.remove();
+                alert(this.parentNode);
+                this.parentNode.remove();
 
             }
         }
