@@ -13,6 +13,9 @@ body{
         #d161ff
     );
 }
+section {
+     background-image: url("images/file.jpg");
+}
 .container{
     width: 40%;
     min-width: 450px;
