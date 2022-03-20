@@ -4,20 +4,26 @@ document.querySelector('#push').onclick = function(){
     }
     else{
         document.querySelector('#tasks').innerHTML += `
-            <div class="task">
+            <div class="task1">
                 <span id="taskname1">
                     ${document.querySelector('#newtask1 input').value}
                 </span>
-                <span id="taskname2">
-				                    ${document.querySelector('#newtask2 input').value}
-				                </span>
-                <span id="taskname3">
-				                    ${document.querySelector('#newtask3 input').value}
-				                </span>
 
-                <button class="delete">
-                    <i class="far fa-trash-alt"></i>
-                </button>
+            </div>
+            <div class="task2">
+			     <span id="taskname2">
+				 	${document.querySelector('#newtask2 input').value}
+				 </span>
+            </div>
+            <div class="task3">
+
+				<span id="taskname3">
+					{document.querySelector('#newtask3 input').value}
+				</span>
+
+				<button class="delete">
+					<i class="far fa-trash-alt"></i>
+				</button>
             </div>
         `;
 
@@ -28,7 +34,7 @@ document.querySelector('#push').onclick = function(){
             }
         }
 
-        var tasks = document.querySelectorAll(".task");
+        var tasks = document.querySelectorAll(".task1");
         for(var i=0; i<tasks.length; i++){
             tasks[i].onclick = function(){
                 this.classList.toggle('completed');
