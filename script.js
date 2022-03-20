@@ -6,8 +6,11 @@ document.querySelector('#push').onclick = function(){
         document.querySelector('#tasks').innerHTML += `
             <div class="task">
                 <span id="task">
-                    ${document.querySelector('#newtask input').value}
+                    ${document.querySelector('#title input').value}
                 </span>
+                    ${document.querySelector('#desc input').value}
+                    ${document.querySelector('#dt input').value}
+
            		<button class="delete">
                     <i class="far fa-trash-alt"></i>
                 </button>
