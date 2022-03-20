@@ -12,11 +12,10 @@ body{
         #8052ec,
         #d161ff
     );
+    background-image: url("images/file.jpg");
+
 }
-section {
-     background-image: url("images/file.jpg");
-}
-.container{
+ .container{
     width: 40%;
     min-width: 450px;
     position: absolute;
