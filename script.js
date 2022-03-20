@@ -5,18 +5,10 @@ document.querySelector('#push').onclick = function(){
     else{
         document.querySelector('#tasks').innerHTML += `
             <div class="task">
-                <span id="title">
-                    ${document.querySelector('#title input').value}
+                <span id="taskname">
+                    ${document.querySelector('#newtask input').value}
                 </span>
-
-           		<span id="desc">
-                    ${document.querySelector('#desc input').value}
-				</span>
-
-           		<span id="dt">
-					     ${document.querySelector('#dt input').value}
-				</span>
-           		<button class="delete">
+                <button class="delete">
                     <i class="far fa-trash-alt"></i>
                 </button>
             </div>
