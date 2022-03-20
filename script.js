@@ -10,12 +10,12 @@ document.querySelector('#push').onclick = function(){
                     ${document.querySelector('#newtask1 input').value}
                 </span>
 
-             <div class="task2 hide">
+             <div class="task2">
 			     <span id="taskname2">
 				 	${document.querySelector('#newtask2 input').value}
 				 </span>
             </div>
-            <div class="task3 hide">
+            <div class="task3">
 				<span id="taskname3">
 					${document.querySelector('input[type="date"]').value}
 				</span>

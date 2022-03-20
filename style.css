@@ -243,15 +243,3 @@ body{
     text-decoration: line-through;
 }
 
-.task2 hide {
-  display: none;
-}
-
-.task1:hover + .task2 hide + .task3 hide {
-  display: block;
-  color: red;
-}
-
-.task3 hide {
-  display: none;
-}
