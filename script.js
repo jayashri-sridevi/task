@@ -19,6 +19,6 @@ document.querySelector('#push').onclick= function
 		}
 
 		document.querySelector("#newtask input")
-		value = "":
+		value = "";
 	}
 }
