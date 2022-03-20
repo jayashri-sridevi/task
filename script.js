@@ -1,7 +1,7 @@
 document.querySelector('#push').onclick= function
 (){
 	if(document.querySelector('#newtask input').nodeValue.length == 0){
-		alert ("Please Enter a Task")
+		alert ("Please Enter new Task")
 	}
 	else {
 		document.querySelector('#tasks').innerHTML += `
