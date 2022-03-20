@@ -29,7 +29,9 @@ document.querySelector('#push').onclick = function(){
         var current_tasks = document.querySelectorAll(".delete");
         for(var i=0; i<current_tasks.length; i++){
             current_tasks[i].onclick = function(){
+                alert(this.parentNode);
                 this.parentNode.remove();
+
             }
         }
 
@@ -41,5 +43,8 @@ document.querySelector('#push').onclick = function(){
         }
 
         document.querySelector("#newtask1 input").value = "";
+		document.querySelector("#newtask2 input").value = "";
+		document.querySelector("#newtask3 input").value = "";
+
     }
 }
