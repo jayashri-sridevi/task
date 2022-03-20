@@ -22,14 +22,14 @@ body{
     left: 50%;
     padding: 30px 40px;
 }
-#newtask{
+#newtask1{
     position: relative;
     background-color: #ffffff;
     padding: 30px 20px;
     border-radius: 5px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
 }
-#newtask input{
+#newtask1 input{
     width: 70%;
     width: 70%;
     height: 45px;
@@ -42,12 +42,12 @@ body{
     position: relative;
     border-radius: 5px;
 }
-#newtask input:focus{
+#newtask1 input:focus{
     outline: none;
     border-color: #8052ec;
 }
 
-#newtask button{
+#newtask1 button{
     position: relative;
     float: right;
     width: 20%;
@@ -62,6 +62,87 @@ body{
     cursor: pointer;
     outline: none;
 }
+#newtask2{
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+#newtask2 input{
+    width: 70%;
+    width: 70%;
+    height: 45px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+#newtask2 input:focus{
+    outline: none;
+    border-color: #8052ec;
+}
+
+#newtask2 button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #8052ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+#newtask3{
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+#newtask3 input{
+    width: 70%;
+    width: 70%;
+    height: 45px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+#newtask3 input:focus{
+    outline: none;
+    border-color: #8052ec;
+}
+
+#newtask3 button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #8052ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
 #tasks{
     background-color: #ffffff;
     padding: 30px 20px;

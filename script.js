@@ -1,12 +1,12 @@
 document.querySelector('#push').onclick = function(){
-    if(document.querySelector('#newtask input').value.length == 0){
+    if(document.querySelector('#newtask1 input').value.length == 0){
         alert("Please Enter a Task")
     }
     else{
         document.querySelector('#tasks').innerHTML += `
             <div class="task">
                 <span id="taskname">
-                    ${document.querySelector('#newtask input').value}
+                    ${document.querySelector('#newtask1 input').value}
                 </span>
                 <button class="delete">
                     <i class="far fa-trash-alt"></i>
@@ -28,6 +28,6 @@ document.querySelector('#push').onclick = function(){
             }
         }
 
-        document.querySelector("#newtask input").value = "";
+        document.querySelector("#newtask1 input").value = "";
     }
 }
