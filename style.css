@@ -167,6 +167,8 @@ body{
     font-family: 'Poppins',sans-serif;
     font-size: 15px;
     font-weight: 400;
+    float:left; 
+    display:inline;
 }
 .task1 button{
     background-color: #8052ec;
@@ -193,6 +195,9 @@ body{
     font-family: 'Poppins',sans-serif;
     font-size: 15px;
     font-weight: 400;
+    float:left; 
+    display:inline;
+
 }
 .task2 button{
     background-color: #8052ec;
@@ -219,6 +224,9 @@ body{
     font-family: 'Poppins',sans-serif;
     font-size: 15px;
     font-weight: 400;
+    float:left; 
+    display:inline;
+
 }
 .task3 button{
     background-color: #8052ec;
