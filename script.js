@@ -17,7 +17,7 @@ document.querySelector('#push').onclick = function(){
             </div>
             <div class="task3">
 				<span id="taskname3">
-					${document.querySelector('#newtask3 input').value}
+					${document.querySelector('input[type="date"]').value}
 				</span>
 
 				<button class="delete">
